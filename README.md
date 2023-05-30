@@ -14,9 +14,6 @@
 | ------------- | --------  | -------- | --------- | --------- | -------------- | 
 | Vision | Cancer Classification | Health care | Keras | [TUPAC16](https://github.com/Moudipa01/Breast_Cancer-Detector/tree/main/docs) | 64x64 PNG Image|
 
-_Note:_ Although this model supports different input data formats, the inference results are sensitive to the input data. In order to keep the extracted images the same as the original datasets, PNG image format should be used.
-
-
 ## References
 * _Dusenberry, Mike, and Hu, Fei_, [Deep Learning for Breast Cancer Mitosis Detection](https://github.com/CODAIT/deep-histopath/raw/master/docs/tupac16-paper/paper.pdf), 2018.
 
