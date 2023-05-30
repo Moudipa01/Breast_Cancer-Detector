@@ -1,8 +1,6 @@
 # Breast_Mitosis-Detector
 ![Build Status](https://travis-ci.org/IBM/MAX-Breast-Cancer-Mitosis-Detector.svg?branch=master)
 ## IBM Code Model Asset Exchange: Breast Cancer Mitosis Detector
-
-
 > This repository contains code to instantiate and deploy the mitosis detection model.
  
 > This model takes a 64 x 64 PNG image file extracted from the whole slide image as input, and outputs the predicted probability of the image containing mitosis. 
@@ -16,9 +14,6 @@
 | ------------- | --------  | -------- | --------- | --------- | -------------- | 
 | Vision | Cancer Classification | Health care | Keras | [TUPAC16](https://github.com/Moudipa01/Breast_Cancer-Detector/tree/main/docs) | 64x64 PNG Image|
 
-_Note:_ Although this model supports different input data formats, the inference results are sensitive to the input data. In order to keep the extracted images the same as the original datasets, PNG image format should be used.
-
-
 ## References
 * _Dusenberry, Mike, and Hu, Fei_, [Deep Learning for Breast Cancer Mitosis Detection](https://github.com/CODAIT/deep-histopath/raw/master/docs/tupac16-paper/paper.pdf), 2018.
 
@@ -26,7 +21,6 @@ _Note:_ Although this model supports different input data formats, the inference
 
 | Component | License | Link  |
 | ------------- | --------  | -------- |
-| This repository | [Apache 2.0](https://www.apache.org/licenses/LICENSE-2.0) | [LICENSE](LICENSE) |
 | Test Samples | Custom License | [Sample](https://github.com/Moudipa01/Breast_Cancer-Detector/tree/main/samples) |
 
 
